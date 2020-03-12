@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+#dentaku {
+    height: 70rem;
+    width: 50rem;
+    background: #202020;
+    .result {
+        margin: 5rem auto;
+        height: 10rem;
+        width: 80%;
+        background: #fff;
+        p {
+            text-align: right;
+            line-height: 10rem;
+            font-size: 6rem;
+            padding: 1rem;
+        }
+    }
+    .buttons {
+        margin: 0 5rem;
+
+        .backenter {
+            height: 8rem;
+            margin: 2rem 0;
+            display: flex;
+            justify-content: space-evenly;
+            button {
+                height: 8rem;
+                width: 10rem;
+                font-size: 4rem;
+            }
+        }
+        &__inner {
+            display: flex;
+            .numbers {
+                height: 40rem;
+                width: 30rem;
+                button {
+                    margin: 0.2rem;
+                    height: 8rem;
+                    width: 9rem;
+                    font-size: 4rem;
+                }
+            }
+            .fao {
+                height: 40rem;
+                width: 10rem;
+                button {
+                    height: 8rem;
+                    width: 10rem;
+                    margin: 0.2rem 0;
+                    font-size: 4rem;
+                }
+            }
+        }
+    }
+}
